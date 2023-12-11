@@ -8,3 +8,5 @@ In the roblox exploiting community.<br>
 # 24.11.2023 | Im starting to work on this repo again :P<br>
 <br>
 ALL SOURCES IN THIS REPO ARE UNDER THE GPL3.0 LICENSE!
+
+# GITHUB this is all for educational purposes.
