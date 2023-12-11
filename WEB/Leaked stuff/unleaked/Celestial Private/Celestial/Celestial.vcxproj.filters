@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="Header Files\Task Scheduler\Task Scheduler.h" />
+    <ClInclude Include="Header Files\Utilities\Utilities.h" />
+    <ClInclude Include="Header Files\Roblox\Memcheck\Memcheck.h" />
+    <ClInclude Include="Header Files\Utilities\Benchmark.h" />
+    <ClInclude Include="Header Files\Roblox\Globals\Globals.h" />
+    <ClInclude Include="Header Files\SDK\SDK.h" />
+    <ClInclude Include="Header Files\Roblox\Hacks\Triggerbot\Triggerbot.h" />
+    <ClInclude Include="Header Files\Roblox\Direct X\Direct X.h" />
+    <ClInclude Include="Resource Files\ImGui\imconfig.h" />
+    <ClInclude Include="Resource Files\ImGui\imgui.h" />
+    <ClInclude Include="Resource Files\ImGui\imgui_impl_dx11.h" />
+    <ClInclude Include="Resource Files\ImGui\imgui_impl_win32.h" />
+    <ClInclude Include="Resource Files\ImGui\imgui_internal.h" />
+    <ClInclude Include="Resource Files\ImGui\imstb_rectpack.h" />
+    <ClInclude Include="Resource Files\ImGui\imstb_textedit.h" />
+    <ClInclude Include="Resource Files\ImGui\imstb_truetype.h" />
+    <ClInclude Include="Resource Files\ImGui\tabs.h" />
+    <ClInclude Include="Resource Files\ImGui\texteditor.hpp" />
+    <ClInclude Include="Header Files\GUIFramework\GUIFramework.h" />
+    <ClInclude Include="Header Files\Renderer\Renderer.h" />
+    <ClInclude Include="Header Files\GUI\GUI.h" />
+    <ClInclude Include="Header Files\GUIFramework\FontStore.h" />
+    <ClInclude Include="Header Files\Roblox\World\World.h" />
+    <ClInclude Include="Header Files\Renderer\Ryleigh\Ryleigh.h" />
+    <ClInclude Include="Resource Files\Themida\include\themida\SecureEngineCustomVMs.h" />
+    <ClInclude Include="Resource Files\Themida\include\themida\SecureEngineCustomVMs_BorlandC_inline.h" />
+    <ClInclude Include="Resource Files\Themida\include\themida\SecureEngineCustomVMs_GNU_inline.h" />
+    <ClInclude Include="Resource Files\Themida\include\themida\SecureEngineCustomVMs_ICL_inline.h" />
+    <ClInclude Include="Resource Files\Themida\include\themida\SecureEngineCustomVMs_LCC_inline.h" />
+    <ClInclude Include="Resource Files\Themida\include\themida\SecureEngineCustomVMs_VC_inline.h" />
+    <ClInclude Include="Resource Files\Themida\include\themida\ThemidaSDK.h" />
+    <ClInclude Include="Resource Files\Xorstr\xorr.h" />
+    <ClInclude Include="Resource Files\Xorstr\XorStr.h" />
+    <ClInclude Include="Source Files\dllmain_utils.h" />
+    <ClInclude Include="Header Files\Roblox\Bypasses\IsTainted\IsTainted.h" />
+    <ClInclude Include="Header Files\Roblox\Radar\Radar.h" />
+    <ClInclude Include="Header Files\Roblox\World\BrickColor\ColorMap.h" />
+    <ClInclude Include="Header Files\Config System\SaveLoad.h" />
+    <ClInclude Include="Header Files\Config System\UIManager.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source Files\dllmain.cpp" />
+    <ClCompile Include="Header Files\Task Scheduler\Task Scheduler.cpp" />
+    <ClCompile Include="Header Files\Utilities\Utilities.cpp" />
+    <ClCompile Include="Header Files\Roblox\Memcheck\Memcheck.cpp" />
+    <ClCompile Include="Header Files\SDK\SDK.cpp" />
+    <ClCompile Include="Header Files\Roblox\Globals\Globals.cpp" />
+    <ClCompile Include="Header Files\Roblox\Hacks\Triggerbot\Triggerbot.cpp" />
+    <ClCompile Include="Header Files\Roblox\Direct X\Direct X.cpp" />
+    <ClCompile Include="Resource Files\ImGui\imgui.cpp" />
+    <ClCompile Include="Resource Files\ImGui\imgui_demo.cpp" />
+    <ClCompile Include="Resource Files\ImGui\imgui_draw.cpp" />
+    <ClCompile Include="Resource Files\ImGui\imgui_impl_dx11.cpp" />
+    <ClCompile Include="Resource Files\ImGui\imgui_impl_win32.cpp" />
+    <ClCompile Include="Resource Files\ImGui\imgui_tables.cpp" />
+    <ClCompile Include="Resource Files\ImGui\imgui_widgets.cpp" />
+    <ClCompile Include="Resource Files\ImGui\texteditor.cpp" />
+    <ClCompile Include="Header Files\GUIFramework\GUIFramework.cpp" />
+    <ClCompile Include="Header Files\Renderer\Renderer.cpp" />
+    <ClCompile Include="Header Files\GUI\GUI.cpp" />
+    <ClCompile Include="Header Files\GUIFramework\FontStore.cpp" />
+    <ClCompile Include="Header Files\Roblox\World\World.cpp" />
+    <ClCompile Include="Header Files\Renderer\Ryleigh\Ryleigh.cpp" />
+    <ClCompile Include="Header Files\GUIFramework\Fonts\Akira Expanded Demo.c" />
+    <ClCompile Include="Header Files\GUIFramework\Fonts\fa-solid-900.c" />
+    <ClCompile Include="Header Files\GUIFramework\Fonts\Poppins-SemiBold.c" />
+    <ClCompile Include="Header Files\Roblox\Hacks\Aimbot\Aimbot.cpp" />
+    <ClCompile Include="Header Files\Roblox\Bypasses\IsTainted\IsTainted.cpp" />
+    <ClCompile Include="Header Files\Roblox\Radar\Radar.cpp" />
+  </ItemGroup>
+</Project>
