@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+	<style type="text/css">
+		html, body {
+			padding: 0;
+			margin: 0;
+
+			overflow: hidden;
+		}
+
+		#container {
+			position: absolute;
+			top: 0;
+			left: 0;
+			bottom: 0;
+			right: 0;
+		}
+	</style>
+</head>
+<body>
+	<div id="container"></div>
+
+	<script src="vs/loader.js"></script>
+	<script type="text/javascript">
+		let editor;
+		let models = {};
+		
+		const getText = () => editor.getValue();
+		
+		const setText = (text) =>
+			editor.executeEdits('', [{
+                range: editor.getModel().getFullModelRange(),
+                text,
+            }]);
+	
+		require.config({ paths: { vs: './vs' } });
+
+		require(['vs/editor/editor.main'], function () {
+
+			
+
+			monaco.editor.defineTheme('elysium', {
+				colors: {},
+				base: 'vs-dark',
+				inherit: true,
+				rules: [
+					{ background: '#121118' },
+					{ token: 'keyword', foreground: '#b897f2'},
+					{ token: 'string', foreground: '#9dcd6a'}
+				],
+				colors: {
+					'editor.background': '#121118',
+					'editor.lineHighlightBorder': '#1e1d27',
+					'minimap.background': '#121118',
+				},
+			});
+			
+			editor = monaco.editor.create(document.getElementById('container'), {
+				theme: 'elysium',
+				value: 'print("Hello", "World")',
+				language: 'lua',
+				automaticLayout: true,
+			});
+
+			
+		});
+	</script>
+</body>
+</html>
